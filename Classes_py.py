@@ -5,9 +5,9 @@ class persona_info (ABC):
     pass
   
 class persona_name (persona_info):
-  def persona_data(self,name):
-    self.name = name
-    print("", self.name)
+  def persona_data(self, name):
+     self.name = name
+     print("", self.name)
     
 akira = persona_name
-akira.persona_data(self, "Akira kurusu")
+akira.persona_data(akira, "Akira kurusu")
